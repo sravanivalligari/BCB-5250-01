@@ -1,9 +1,9 @@
----
+```
 # SAINT LOUIS UNIVERSITY
 # SRAVANI VALLIGARI
 # BCB-5250-01
 03-02-2023
----
+```
 
 This is a Python script that calculates the N50 value of a set of contigs in a FASTA format file. The N50 is a metric used to evaluate the quality of genome assemblies and represents the length of the shortest contig such that at least 50% of the total length of all contigs are in contigs of that length or longer.
 
