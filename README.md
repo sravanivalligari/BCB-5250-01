@@ -71,3 +71,13 @@ Total length: The sum of lengths of all contigs
 Length of the largest contig: The length of the longest contig in the input file
 N50: The N50 value calculated from the input contig lengths
 The script also prints the path to the report file to the console.
+
+*To run the program, save the above code to a file named myquast.py and run it as follows:*
+
+```
+python myquast.py test_data/contigs_1.fasta -o quast_test_output
+```
+
+This will calculate the N50 for the test_data/contigs_1.fasta file and write the report to the quast_test_output/report.txt file. You can change the output directory by specifying a different path with the -o option. If you need help with the program's usage, run python myquast.py -h.
+
+To test and validate the report using the hands-on lab contigs with QUAST, you can run the program on the hands-on lab contigs file instead of test_data/contigs_1.fasta.
